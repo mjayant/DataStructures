@@ -100,4 +100,4 @@ class DoublyLinkedList(object):
             item.prev.next = item.next
             item.next.prev = item.prev
 
-    
+

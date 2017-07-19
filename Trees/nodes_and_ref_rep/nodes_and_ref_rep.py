@@ -61,4 +61,12 @@ class Tree(object):
         """
         return self.root
 
-    
+    def setRootVal(self, val):
+        """
+
+        :param root:
+        :param val:
+        :return:
+        """
+        self.root = val
+
