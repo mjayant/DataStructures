@@ -1,0 +1,33 @@
+List is --------->[20, 26, 17, 31, 44, 54, 77, 55, 93]
+x[i]---->54
+List is --------->[17, 20, 26, 31, 44]
+x[i]---->20
+first part------->[17]
+List is --------->[26, 31, 44]
+x[i]---->26
+first part------->[]
+List is --------->[31, 44]
+x[i]---->31
+first part------->[]
+x[i]---->31
+second part--------->[44]
+We are appending first part---> [] with x[i]---->31
+x[i]---->26
+second part--------->[31, 44]
+We are appending first part---> [] with x[i]---->26
+x[i]---->20
+second part--------->[26, 31, 44]
+We are appending first part---> [17] with x[i]---->20
+first part------->[17, 20, 26, 31, 44]
+List is --------->[55, 77, 93]
+x[i]---->77
+first part------->[55]
+x[i]---->77
+second part--------->[93]
+We are appending first part---> [55] with x[i]---->77
+x[i]---->54
+second part--------->[55, 77, 93]
+We are appending first part---> [17, 20, 26, 31, 44] with x[i]---->54
+[20, 26, 17, 31, 44, 54, 77, 55, 93]
+
+Process finished with exit code 0
